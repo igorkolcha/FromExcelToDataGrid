@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             DataGrid = new DataGridView();
-            TextBox_FileSource = new TextBox();
             ((System.ComponentModel.ISupportInitialize)DataGrid).BeginInit();
             SuspendLayout();
             // 
@@ -41,30 +40,20 @@
             DataGrid.Size = new Size(776, 224);
             DataGrid.TabIndex = 0;
             // 
-            // TextBox_FileSource
-            // 
-            TextBox_FileSource.Location = new Point(28, 263);
-            TextBox_FileSource.Name = "TextBox_FileSource";
-            TextBox_FileSource.Size = new Size(748, 23);
-            TextBox_FileSource.TabIndex = 1;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(TextBox_FileSource);
             Controls.Add(DataGrid);
             Name = "Form1";
             Text = "FromExcelToDataGrid";
             ((System.ComponentModel.ISupportInitialize)DataGrid).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private DataGridView DataGrid;
-        private TextBox TextBox_FileSource;
     }
 }

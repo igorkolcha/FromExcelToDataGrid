@@ -8,6 +8,7 @@ namespace FromExcelToDataGrid
 
             //this.WindowState = FormWindowState.Maximized;
             this.DataGrid.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            this.DataGrid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
     }
 }
