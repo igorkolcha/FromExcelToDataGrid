@@ -30,8 +30,6 @@
         {
             DataGrid = new DataGridView();
             TextBox_FileSource = new TextBox();
-            ButtonSelectFile = new Button();
-            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)DataGrid).BeginInit();
             SuspendLayout();
             // 
@@ -50,33 +48,11 @@
             TextBox_FileSource.Size = new Size(748, 23);
             TextBox_FileSource.TabIndex = 1;
             // 
-            // ButtonSelectFile
-            // 
-            ButtonSelectFile.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            ButtonSelectFile.Location = new Point(93, 328);
-            ButtonSelectFile.Name = "ButtonSelectFile";
-            ButtonSelectFile.Size = new Size(144, 33);
-            ButtonSelectFile.TabIndex = 2;
-            ButtonSelectFile.Text = "Select Excel";
-            ButtonSelectFile.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            button1.Location = new Point(528, 328);
-            button1.Name = "button1";
-            button1.Size = new Size(144, 33);
-            button1.TabIndex = 3;
-            button1.Text = "Upload to DataGrid";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
-            Controls.Add(ButtonSelectFile);
             Controls.Add(TextBox_FileSource);
             Controls.Add(DataGrid);
             Name = "Form1";
@@ -90,7 +66,5 @@
 
         private DataGridView DataGrid;
         private TextBox TextBox_FileSource;
-        private Button ButtonSelectFile;
-        private Button button1;
     }
 }
